@@ -1,8 +1,6 @@
 import { useState } from 'react';
 import { data } from './data';
 import './App.css';
-import { Form } from 'react-bootstrap';
-import { Button } from "react-bootstrap";
 
 function Booknow() {
   const [slides, setSlides] = useState(0);
@@ -26,7 +24,7 @@ function Booknow() {
       }))
     } 
   return (
-    <div className='box'>
+    <div className='boxbook'>
         <div className='btnbox'>
           <button className='btn' onClick={backSlide}> Back </button>
         </div>

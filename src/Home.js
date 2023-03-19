@@ -3,9 +3,6 @@ import { useState } from "react";
 import { data } from "./data"
 import Buttons from "./Buttons";
 import Cakes from "./Cakes";
-import { Button } from "react-bootstrap";
-
-
 
 function Home() {
     const [cakes, setCakes] = useState(data);
@@ -13,9 +10,8 @@ function Home() {
       const newCakes = data.filter(element => element.searchTerm === searchTerm);
       setCakes(newCakes);
     }
-
     return (
-      <div>
+      <div className="parent">
         <div className='box'>
           <img className="image" src="https://img.freepik.com/free-photo/delicious-cupcakes-with-copy-space_23-2148815876.jpg?size=626&ext=jpg&ga=GA1.2.130677348.1662326987&semt=sph" alt="cake" width="700px" height ="450px"/>
           <div className="centered">
@@ -27,7 +23,7 @@ function Home() {
           </div>
         </div>
         < Buttons className= "btn" filteredChoice={chosenCakes} />
-      < Cakes anyCakes={cakes} />
+      < Cakes className="products" anyCakes={cakes} />
       </div>
       
     );
