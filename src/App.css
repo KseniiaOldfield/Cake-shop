@@ -185,6 +185,7 @@ h1, h3, h4, h2, p {
 .footer {
   background: rgb(255,211,226);
   background: linear-gradient(0deg, rgba(255,211,226,1) 50%, rgba(255,255,255,1) 100%);
+  width: 100%;
 }
 .social {
   display: flex;
@@ -303,5 +304,8 @@ iframe {
   }
   .text {
     flex-direction: column-reverse;
+  }
+  .footer {
+    width:29rem;
   }
 }
