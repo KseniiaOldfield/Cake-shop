@@ -178,5 +178,14 @@ export const data = [
         price: 100,
         image: "https://img.freepik.com/free-photo/wedding-cake-with-color-flores_144627-13807.jpg?size=626&ext=jpg&ga=GA1.2.130677348.1662326987&semt=ais",
         showMore: false
+    },
+    {
+        id: 21,
+        name: "Pink Donuts with white crumbles",
+        description: "Our donuts are the most delicious treat anytime of the day or night. Perfect for your besties birthday, baby news, thank you gift or any other amazing reason!!",
+        searchTerm: "cupcakes",
+        price: 30,
+        image: "https://images.freeimages.com/images/large-previews/4fd/pink-donuts-series-1318691.jpg",
+        showMore: false
     }
 ]

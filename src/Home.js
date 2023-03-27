@@ -3,6 +3,7 @@ import { useState } from "react";
 import { data } from "./data"
 import Buttons from "./Buttons";
 import Cakes from "./Cakes";
+import imagecup from "./home-page.jpg";
 
 function Home() {
     const [cakes, setCakes] = useState(data);
@@ -13,7 +14,7 @@ function Home() {
     return (
       <div className="parent">
         <div className='box'>
-          <img className="image" src="https://img.freepik.com/free-photo/delicious-cupcakes-with-copy-space_23-2148815876.jpg?size=626&ext=jpg&ga=GA1.2.130677348.1662326987&semt=sph" alt="cake" width="700px" height ="450px"/>
+          <img className="image" src={imagecup} alt="cake" width="700px" height ="450px"/>
           <div className="centered">
             <h1>Welcome!</h1> 
             <h3>Here you will find a wide variety of cakes,</h3>

@@ -25,17 +25,18 @@ function Booknow() {
     } 
   return (
     <div className='boxbook'>
-        <div className='btnbox'>
-          <button className='btn' onClick={backSlide}> Back </button>
-        </div>
         <div className="containercake">
         <h1 className='choose'>Choose a cake</h1>
           <img className='card' src={image} width="500px" alt='cake'/>
           <h2 className='namecake'>{id}. {name} - £ {price}</h2>
-          <a  href="mailto:ks04.08@mail.ru" target="_blank"><button className='btn'>Book now</button></a>
+          <div className='btnbox'>
+          <button className='btnbook' onClick={backSlide}>Back </button>
+          <button className='btnbook' onClick={nextSlide}> Next </button>
+        </div>
+          <a  href="mailto:ks04.08@mail.ru"><button className='btn'>Book now</button></a>
         </div>
         <div className='btnbox'>
-          <button className='btn' onClick={nextSlide}> Next </button>
+        
         </div>
       
     </div>);

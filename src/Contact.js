@@ -1,6 +1,6 @@
  
 function Contact() {
-    return (<div>
+    return (<div className="bg">
         <div className="form">
             <h1>Contact</h1>
         </div>

@@ -1,21 +1,18 @@
 body {
     background-color: #ffd3e2;
-    width: 100%;
-    height: 100%;
     margin: 0;
     overflow-x: hidden;
 }
 nav {
     background-image: url("https://img.freepik.com/premium-vector/yogurt-drips-strawberry-milk-product-flowing_100011-88.jpg?size=626&ext=jpg&ga=GA1.1.130677348.1662326987&semt=ais");
     height: 150px;
-    width: 100%;
     z-index: 999999;
     background-position:top;
-    overflow: hidden;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     flex: 1;
+    margin: 0;
 }
 .top {
     display: flex;
@@ -24,7 +21,6 @@ nav {
     padding: 2em;
 }
 .logo {
-    padding: 0x -0px;
     text-decoration: none;
     color: #464646;
     font-size:45px;
@@ -33,7 +29,6 @@ nav {
     text-align: center;
   }
 .link {
-  padding: 0px;
   margin: 20px;
   text-decoration: none;
   color: #464646;
@@ -48,16 +43,16 @@ nav {
   text-align: center;
 }
 .image {
-    border-radius: 20px;
-    margin-top: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
 }
 .centered {
-    position: absolute;
-    top: 60%;
-    left: 51%;
-    transform: translate(-25%, -50%);
-    font-family: 'Montserrat', sans-serif;
-    font-size: 19px;
+  position: absolute;
+  top: 60%;
+  left: 51%;
+  transform: translate(-25%, -50%);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 19px;
 }
 .products {
   display: flex;
@@ -68,8 +63,8 @@ nav {
 }
 .item {
   align-items: center;
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 .cake-card {
   padding: 2rem;
@@ -83,6 +78,10 @@ nav {
 .card {
   border-radius: 20px;
   border: solid 2px #e9297c;
+}
+.cake-info {
+  background-color: #d76d9b;
+  
 }
 .box {
   display: flex;
@@ -116,6 +115,20 @@ nav {
 .btn:hover {
   background-color: #e9297c;
 }
+.btnbook {
+  margin: 10px;
+  background-color:#656565;
+  color: #ffd3e2;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  cursor: pointer;
+}
+.btnbook:hover {
+  background-color: #e9297c;
+}
 h1, h3, h4, h2, p {
   font-family: 'Encode Sans Semi Expanded', sans-serif;
   color: #565656;
@@ -143,18 +156,13 @@ h1, h3, h4, h2, p {
 .boxbook {
   display: flex;
   justify-content: center;
-  width: auto;
-  height: auto;
 }
 .btnbox {
   display: flex;
-  align-items: center;
-  margin-top: 100px;
 }
 .about {
   display: flex;
   justify-content: center;
-
 }
 .story {
   display: flex;
@@ -200,6 +208,7 @@ h1, h3, h4, h2, p {
   justify-content: center;
 }
 .contact {
+  background-color: rgba(253, 219, 226, 0.9);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -209,6 +218,7 @@ h1, h3, h4, h2, p {
   z-index: 999999;
 }
 .form {
+  background-color: rgba(253, 219, 226, 0.9);
   display: flex;
   justify-content:center;
   align-items: flex-end;
@@ -216,6 +226,12 @@ h1, h3, h4, h2, p {
   color: #464646;
   font-family: 'Montserrat', sans-serif;
   font-size: 22px;
+}
+.bg {
+  background-image: url("https://img.freepik.com/free-photo/monstera-plants-pink-cupcakes-arrangement_23-2148815880.jpg?size=626&ext=jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 .address {
   display: flex;
@@ -237,24 +253,95 @@ iframe {
   margin:20px;
   border-radius: 20px;
 }
+@media all and (max-width:913px) {
+ 
+  .centered {
+    top: 35%;
+  }
+  .text1 {
+    font-size: 25px;
+  }
+  .address {
+    font-size: 30px;
+  }
+  .phone {
+    font-size: 30px;
+  }
+  .boxbook {
+    height: 100vh;
+  }
+}
+@media all and (max-width:820px) {
+ 
+  .centered {
+    top: 40%;
+  }
+}
 @media all and (max-width:800px) {
   .cake-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 85%;
+    padding: 1rem;
   }
   .logo {
-    font-size: 27px;
-  }
-  .link {
-    font-size: 16px;
+    font-size: 40px;
   }
 }
+@media all and (max-width:541px) { 
+ .link {
+  font-size: 13px;
+ }
+ .logo {
+  font-size: 25px;
+  margin-left: 15px;
+ }
+ .image {
+  width: 100%;
+  height: 300px;
+}
+.centered {
+  font-size: 15px;
+  top: 52%;
+}
+.boxbtn {
+  flex-direction: column;
+}
+.top {
+  justify-content: center;
+}
+.text {
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.btn {
+  background: rgb(255,211,226);
+  background: radial-gradient(circle, rgba(255,211,226,1) 0%, rgba(255,255,255,1) 100%);
+  color: #656565;
+  margin: 5%;
+  border: 1px solid #ffff;
+}
+.btn:hover {
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,211,226,1) 100%);
+}
+.btnbook {
+  background: rgb(255,211,226);
+  background: radial-gradient(circle, rgba(255,211,226,1) 0%, rgba(255,255,255,1) 100%);
+  color: #656565;
+  border: 1px solid #ffff;
+}
+  .btnbook:hover {
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,211,226,1) 100%);
+}
+}
 @media all and (max-width:500px) { 
+  
   .top {
     justify-content: space-around;
-  }
+ }
   .logo {
     font-size: 23px;
   }
@@ -262,30 +349,9 @@ iframe {
     font-size: 15px;
     margin-right: 5px;
   }
-  .box {
-      width: 85%;
-  }
-  .image {
-    width: 500px;
-    height: 350px;
-  }
   .centered {
-    font-size: 17px;
-    top: 57%;
-  }
-  .boxbtn {
-    flex-direction: column;
-  }
-  .btn {
-    background: rgb(255,211,226);
-    background: radial-gradient(circle, rgba(255,211,226,1) 0%, rgba(255,255,255,1) 100%);
-    color: #656565;
-    margin: 5%;
-    border: 1px solid #ffff;
-  }
-  .btn:hover {
-    background: rgb(255,255,255);
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,211,226,1) 100%);
+    font-size: 15px;
+    top: 42%;
   }
   .parent {
     width: 100%;
@@ -296,16 +362,87 @@ iframe {
     width: 350px;
     height: 250px;
   }
-  .btnbox {
-    padding: 10px;
-  }
-  .boxbook {
-    margin-left: 25px;
-  }
   .text {
     flex-direction: column-reverse;
   }
-  .footer {
-    width:29rem;
+  .photo {
+    width: 300px;
   }
+  .address {
+    font-size: 20px;
+  }
+  .phone {
+    font-size: 20px;
+  }
+  .text1 {
+    font-size: 20px;
+  }
+}
+@media all and (max-width:400px) { 
+
+  .link {
+    font-size: 13px;
+    margin-right: 5px;
+  }
+  .image {
+    height: 280px;
+  }
+  .centered {
+    margin-top: 55px;
+    font-size: 14px;
+  }
+}
+@media all and (max-width:394px) { 
+
+  .centered {
+    margin-top: 5px;
+  }
+}
+@media all and (max-width:391px) { 
+  
+  .centered {
+    margin-top: 15px;
+  }
+}
+@media all and (max-width:376px) { 
+
+  .centered {
+    margin-top: 65px;
+  }
+}
+@media all and (max-width:361px) { 
+
+  .centered {
+    margin-top: 35px;
+  }
+}
+@media all and (max-width:281px) {
+   .card {
+    width: 250px;
+   }
+   .link {
+    font-size: 10px;
+    margin: 10px;
+   }
+   .logo {
+    font-size: 15px;
+   }
+   .top {
+    justify-content: center;
+}
+.centered {
+  margin-top: 80px;
+}
+.photo {
+  width: 230px;
+}
+iframe {
+  width: 240px;
+}
+.choose {
+  font-size: 30px;
+}
+.namecake {
+  font-size: 20px;
+}
 }

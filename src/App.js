@@ -16,7 +16,7 @@ import Footer from "./Footer";
 function App() {
   return <div><Router>
     <nav className="top">
-      <Link to="/" className="logo">Helen | ArtCeke</Link>
+      <Link to="/" className="logo">Helen ArtCeke</Link>
       <Link to="/" className="link">Shop</Link>
       <Link to="/about" className="link">About</Link>
       <Link to="/contact" className="link">Contact us</Link>
