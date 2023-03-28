@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Button } from "react-bootstrap";
 
 function Cakes({anyCakes}) {
     const [showText, setShowText] = useState(false)
@@ -15,7 +14,7 @@ function Cakes({anyCakes}) {
         <img className="card" src={image} alt="cakes" width="350px" height="300px"/>
             <div className="cake-info">
                 <h3>{name}</h3>
-                <p>{showMore ? description : description.substring(0,50) + "...."}
+                <p className="description">{showMore ? description : description.substring(0,50) + "...."}
                 <button className="show" onClick={() => showTextClick(item)}>{showMore ? "Show less" : "Show more"}</button>
                 </p>
                 <h4>£ {price}</h4>
