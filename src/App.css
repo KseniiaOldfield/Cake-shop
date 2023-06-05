@@ -288,6 +288,9 @@ iframe {
     width: 85%;
     padding: 1rem;
   }
+  .text {
+    flex-direction: column-reverse;
+  }
   .logo {
     font-size: 40px;
   }
@@ -365,9 +368,7 @@ iframe {
     width: 350px;
     height: 250px;
   }
-  .text {
-    flex-direction: column-reverse;
-  }
+  
   .photo {
     width: 300px;
   }

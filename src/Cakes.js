@@ -9,7 +9,7 @@ function Cakes({anyCakes}) {
     return (
         <div className="products">
 {anyCakes.map((item => {
-    const {id, name, searchTerm, description, price, image, showMore} = item;
+    const {id, name, description, price, image, showMore} = item;
     return <div className="cake-card item" key={id}>
         <img className="card" src={image} alt="cakes" width="350px" height="300px"/>
             <div className="cake-info">
