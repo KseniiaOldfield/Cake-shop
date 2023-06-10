@@ -357,11 +357,15 @@ iframe {
   }
   
   .box {
-    margin-top:65px
+    margin-top:65px;
   }
   .centered {
     font-size: 15px;
-    top: 50%;
+    top: 55%;
+  }
+  .image {
+    margin-bottom: 50px;
+    height: 350px;
   }
   .parent {
     width: 100%;
@@ -372,7 +376,6 @@ iframe {
     width: 350px;
     height: 250px;
   }
-  
   .photo {
     width: 300px;
   }
