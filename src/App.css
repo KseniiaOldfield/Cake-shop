@@ -363,7 +363,7 @@ iframe {
   }
   .centered {
     font-size: 15px;
-    top: 50%;
+    top: 60%;
   }
   .image {
     margin-bottom: 50px;
@@ -391,13 +391,6 @@ iframe {
     font-size: 20px;
   }
 }
-@media all and (max-width:420px) {
-  .centered {
-    font-size: 15px;
-    top: 60%;
-  }
- }
-
 @media all and (max-width:400px) { 
   .link {
     font-size: 13px;
