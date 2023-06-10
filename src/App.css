@@ -358,21 +358,19 @@ iframe {
     font-size: 15px;
     margin-right: 5px;
   }
-  .box {
-    margin-top: 100px;
-  }
   .centered {
     font-size: 15px;
-    top: 65%;
+    top: 70%;
   }
   .image {
-    margin-bottom: 80px;
+    margin-bottom: 100px;
     height: 350px;
   }
   .parent {
     width: 100%;
     display: flex;
     flex-direction: column;
+    margin-top: 100px;
   }
   .card {
     width: 350px;
@@ -400,23 +398,23 @@ iframe {
     height: 280px;
   }
   .centered {
-    top: 60%;
+    top: 65%;
     font-size: 14px;
   }
 }
 @media all and (max-width:394px) { 
   .centered {
-    top:50%
+    top:55%
   }
 }
 @media all and (max-width:376px) { 
   .centered {
-    top:62%
+    top:70%
   }
 }
 @media all and (max-width:361px) { 
   .centered {
-    top: 55%;
+    top: 60%;
   }
 }
 @media all and (max-width:281px) {
