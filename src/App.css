@@ -355,17 +355,15 @@ iframe {
     font-size: 15px;
     margin-right: 5px;
   }
-  .box {
-    margin-top:50px
-  }
   .centered {
     font-size: 15px;
-    top: 43%;
+    top: 50%;
   }
   .parent {
     width: 100%;
     display: flex;
     flex-direction: column;
+    margin-top: 100px;
   }
   .card {
     width: 350px;
