@@ -358,17 +358,6 @@ iframe {
     font-size: 15px;
     margin-right: 5px;
   }
-  .box {
-    margin-top:65px;
-  }
-  .centered {
-    font-size: 15px;
-    top: 60%;
-  }
-  .image {
-    margin-bottom: 50px;
-    height: 350px;
-  }
   .parent {
     width: 100%;
     display: flex;
@@ -389,6 +378,19 @@ iframe {
   }
   .text1 {
     font-size: 20px;
+  }
+}
+@media all and (max-width:420px) { 
+  .box {
+    margin-top: 100px;
+  }
+  .centered {
+    font-size: 15px;
+    top: 65%;
+  }
+  .image {
+    margin-bottom: 80px;
+    height: 350px;
   }
 }
 @media all and (max-width:400px) { 
