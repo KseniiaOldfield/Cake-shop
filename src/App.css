@@ -256,12 +256,8 @@ iframe {
   border-radius: 20px;
   border: solid 2px #e9297c;
 }
-@media all and (max-width:1030px) {
-  .centered {
-    top: 65%;
-  }
-}
 @media all and (max-width:913px) {
+ 
   .centered {
     top: 35%;
   }
@@ -348,6 +344,7 @@ iframe {
 }
 }
 @media all and (max-width:500px) { 
+  
   .top {
     justify-content: space-around;
  }
@@ -358,24 +355,23 @@ iframe {
     font-size: 15px;
     margin-right: 5px;
   }
+  .box {
+    margin-top: 100px;
+  }
   .centered {
     font-size: 15px;
-    top: 70%;
-  }
-  .image {
-    margin-bottom: 150px;
-    height: 350px;
+    top: 52%;
   }
   .parent {
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
   }
   .card {
     width: 350px;
     height: 250px;
   }
+  
   .photo {
     width: 300px;
   }
@@ -390,6 +386,7 @@ iframe {
   }
 }
 @media all and (max-width:400px) { 
+
   .link {
     font-size: 13px;
     margin-right: 5px;
@@ -398,23 +395,32 @@ iframe {
     height: 280px;
   }
   .centered {
-    top: 65%;
+    margin-top: 55px;
     font-size: 14px;
   }
 }
 @media all and (max-width:394px) { 
+
   .centered {
-    top:55%
+    margin-top: 5px;
+  }
+}
+@media all and (max-width:391px) { 
+  
+  .centered {
+    margin-top: 15px;
   }
 }
 @media all and (max-width:376px) { 
+
   .centered {
-    top:70%
+    margin-top: 65px;
   }
 }
 @media all and (max-width:361px) { 
+
   .centered {
-    top: 60%;
+    margin-top: 35px;
   }
 }
 @media all and (max-width:281px) {
@@ -432,8 +438,7 @@ iframe {
     justify-content: center;
 }
 .centered {
-  font-size: 13px;
-  margin-top: 65px;
+  margin-top: 80px;
 }
 .photo {
   width: 230px;
