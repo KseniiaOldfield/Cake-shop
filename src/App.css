@@ -357,10 +357,10 @@ iframe {
   }
   .centered {
     font-size: 15px;
-    top: 52%;
+    top: 54%;
   }
   .image {
-    margin: 40px;
+    margin-bottom: 100px;
   }
   .parent {
     width: 100%;
