@@ -355,12 +355,12 @@ iframe {
     font-size: 15px;
     margin-right: 5px;
   }
-  .box {
-    margin-top: 100px;
-  }
   .centered {
     font-size: 15px;
     top: 52%;
+  }
+  .image {
+    margin: 40px;
   }
   .parent {
     width: 100%;
