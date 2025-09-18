@@ -1,3 +1,5 @@
+import photo from "./pastry-cook.jpg";
+
 function About() {
     return (<div>
         <div className="about">
@@ -15,7 +17,7 @@ function About() {
             
             </div>
             <div className="text2">
-                <img className="photo" src="https://img.freepik.com/free-photo/confectioner-uniform-decorates-cake_1157-33235.jpg?size=626&ext=jpg&ga=GA1.2.130677348.1662326987&semt=ais" alt="cake maker" width="350px"/>
+                <img className="photo" src={photo} alt="cake maker" width="350px"/>
             </div>
         </div>
         </div>
