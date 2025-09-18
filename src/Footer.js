@@ -8,7 +8,7 @@ function Footer() {
             <img className="media" src="https://cdn-icons-png.flaticon.com/128/160/160194.png"  alt="twitter" width="25px"/>
         </div>
         <div className="rights">
-            <p>  © All rights reserved</p>
+            <p>All materials on the site are collected from open sources https://www.google.com/search for educational purposes.</p>
         </div>
     </footer>
         </div>
